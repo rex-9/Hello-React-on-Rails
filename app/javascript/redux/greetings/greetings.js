@@ -4,7 +4,7 @@ const API_URL = '/api/greetings';
 
 const FETCH = 'Hello-React-on-Rails/greetings/FETCH';
 
-export default (state = [], action) => {
+export default (state = '', action) => {
   switch (action.type) {
     case `${FETCH}/fulfilled`:
       return action.payload;

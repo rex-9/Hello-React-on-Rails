@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <h1>Hello World!</h1>
-      <Link to="/greeting">Go page details</Link>
+      <Link to="/greeting">Go to Greetings Page</Link>
       <Routes>
         <Route path="/greeting" element={<Greeting />} />
       </Routes>
